@@ -26,4 +26,4 @@ def test_response_without_param():
         req = Request()
         response = __init__.main(req)
         assert response.status_code==200
-        assert response.get_body()==b"Hello! Welcome to Azure Functions!"
+        assert response.get_body()==b"Hello! Welcome to Azure Functions BAM!"
